@@ -14,7 +14,7 @@ namespace CalculateProject
             Console.WriteLine("Вы ввели следующие числа: " + a + " и " + b);
             Console.WriteLine("Введите операцию");
             string oper = Console.ReadLine();
-            Console.WriteLine("Вы выбрали следуюущую операцию: " + oper);
+            Console.WriteLine("Вы выбрали следующую операцию: " + oper);
             Calculation calculate = new Calculation();
             int res = 0;
             switch (oper)
